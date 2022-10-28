@@ -12,7 +12,6 @@
 
 using namespace nvinfer1;
 
-
 void performSerialization(); // build engine from wts
 void performInference(); // run trt engine
 
@@ -24,8 +23,6 @@ void performInference(); // run trt engine
  * @return int: a flag to perform operation
  */
 int checkArgs(int argc, char **argv) {
-
-
     if (argc != 2) {
         std::cerr << "[ERROR]: Arguments not right!" << std::endl;
         std::cerr << "./linear -s   // serialize model to engine file" << std::endl;
