@@ -126,11 +126,11 @@ void performInference() {
     engine->destroy();
     runtime->destroy();
 
-    std::cout << "\nInput:\t";
+    std::cout << "\n[INFO]:Input:\t";
     for (float i: data) {
         std::cout << i << ' ';
     }
-    std::cout << "\nOutput:\t";
+    std::cout << "\n[INFO]:Output:\t";
     for (float i: out) {
         std::cout << i << ' ';
     }
