@@ -1,0 +1,17 @@
+16
+mlp.0.weight 200704
+mlp.0.bias 256
+mlp.1.weight 1
+mlp.1.bias 1
+mlp.1.running_mean 1
+mlp.1.running_var 1
+mlp.1.num_batches_tracked 1
+mlp.3.weight 32768
+mlp.3.bias 128
+mlp.4.weight 1
+mlp.4.bias 1
+mlp.4.running_mean 1
+mlp.4.running_var 1
+mlp.4.num_batches_tracked 1
+mlp.6.weight 1280
+mlp.6.bias 10

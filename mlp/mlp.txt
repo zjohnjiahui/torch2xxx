@@ -1,0 +1,7 @@
+ 6
+mlp.0.weight 200704
+mlp.0.bias 256
+mlp.2.weight 32768
+mlp.2.bias 128
+mlp.4.weight 1280
+mlp.4.bias 10
