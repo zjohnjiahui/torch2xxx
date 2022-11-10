@@ -1,0 +1,21 @@
+20
+stage1.conv.weight 150
+stage1.conv.bias 6
+stage1.bn.weight 6
+stage1.bn.bias 6
+stage1.bn.running_mean 6
+stage1.bn.running_var 6
+stage1.bn.num_batches_tracked 1
+stage2.conv.weight 2400
+stage2.conv.bias 16
+stage2.bn.weight 16
+stage2.bn.bias 16
+stage2.bn.running_mean 16
+stage2.bn.running_var 16
+stage2.bn.num_batches_tracked 1
+stage3.conv.weight 48000
+stage3.conv.bias 120
+fc1.0.weight 10080
+fc1.0.bias 84
+fc2.0.weight 840
+fc2.0.bias 10
